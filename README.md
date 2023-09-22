@@ -47,4 +47,10 @@ Then applying GridSearchCV we fine-tune the hyperparameters of the Random Forest
 
 Best f1-scores:
 Random Forest - 0.98
-SVM - 
+SVM - 0.93
+MLP - 0.97
+
+# Final Model
+In the end the Random Forest classifier is chosen and its classification report can be seen below:
+
+
