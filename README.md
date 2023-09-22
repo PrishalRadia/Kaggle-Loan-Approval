@@ -19,6 +19,8 @@ Features:
 * Credit Score
 * Residential Asset Value
 * Commercial Asset Value
+* Luxury Asset Value
+* Bank Asset Value
 
 From this we then procedd to carry out some Exploratory Data Analysis using seaborn to visualise the data and understand the relations between the variables.
 We generate bar graphs, histograms and a correlation heatmap.
