@@ -30,5 +30,6 @@ Some of which can be seen below:
 
 ![image](https://github.com/PrishalRadia/Kaggle-Loan-Approval/assets/140926795/3f4e60b7-0271-4c2a-a0b3-f88ad8d75a44)   ![image](https://github.com/PrishalRadia/Kaggle-Loan-Approval/assets/140926795/b06af6da-7117-4c7e-85c0-e432cdb40c92)
 
- 
+![image](https://github.com/PrishalRadia/Kaggle-Loan-Approval/assets/140926795/fcdad1e8-6a70-44e1-98cb-d505ccfc859c)
+
 
