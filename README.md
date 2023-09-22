@@ -2,7 +2,7 @@
 
 # Introduction
 This project uses the following loan approval dataset from Kaggle https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset
-In this project we develop a machine learning classifcation model to predict the approval status of a loan with 98% accuracy and f1-score=0.98. 
+In this project we develop a machine learning classifcation model using Scikit-learn in Python to predict the approval status of a loan with 98% accuracy and f1-score=0.98. 
 
 # Exploratory Data Analysis
 We initially check the data for missing values, which this dataset has none, get a list of the features and get the summary statistics for the data.
@@ -11,7 +11,7 @@ Dependent Variable : Loan Status
 
 Features:
 * Number of Dependents
-* education (Graduate or Non-Graduate)
+* Education (Graduate or Non-Graduate)
 * Employment Status
 * Annual Income
 * Loan Amount
@@ -32,4 +32,19 @@ Some of which can be seen below:
 
 ![image](https://github.com/PrishalRadia/Kaggle-Loan-Approval/assets/140926795/fcdad1e8-6a70-44e1-98cb-d505ccfc859c)
 
+# Preprocessing Data
+Applying label encoding to the categorical variables which are Education, Employment and the dependent variable loan status we can convert these features into dummy variables.
+Then we train-test split the data and apply StandardScaler to the numerical variables to normalise them.
 
+# Model Builiding and Tuning
+We initially construct and evaluate a variety of classificaion algorithms with default parameters :
+* Random Forest
+* Support Vector Machine
+* Logistic Regression
+* Multilayered Perceptron
+
+Then applying GridSearchCV we fine-tune the hyperparameters of the Random Forest, Support Vector Machine, and MLP so as to optimise the f1-score.
+
+Best f1-scores:
+Random Forest - 0.98
+SVM - 
