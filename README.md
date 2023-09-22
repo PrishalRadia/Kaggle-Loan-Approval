@@ -46,11 +46,17 @@ We initially construct and evaluate a variety of classificaion algorithms with d
 Then applying GridSearchCV we fine-tune the hyperparameters of the Random Forest, Support Vector Machine, and MLP so as to optimise the f1-score.
 
 Best f1-scores:
-Random Forest - 0.98
-SVM - 0.93
-MLP - 0.97
+* Random Forest - 0.98
+* SVM - 0.93
+* MLP - 0.97
 
 # Final Model
 In the end the Random Forest classifier is chosen and its classification report can be seen below:
 
+![image](https://github.com/PrishalRadia/Kaggle-Loan-Approval/assets/140926795/34ff11c9-26bd-4e5f-9c2c-0d5320af9681)
 
+
+# References 
+
+* https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset
+* https://scikit-learn.org/stable/index.html
