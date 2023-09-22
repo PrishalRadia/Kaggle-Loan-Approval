@@ -25,3 +25,6 @@ Features:
 From this we then procedd to carry out some Exploratory Data Analysis using seaborn to visualise the data and understand the relations between the variables.
 We generate bar graphs, histograms and a correlation heatmap.
 Some of which can be seen below:
+
+![image](https://github.com/PrishalRadia/Kaggle-Loan-Approval/assets/140926795/c5298631-7623-4c05-bad4-eda62ab0756a) 
+
